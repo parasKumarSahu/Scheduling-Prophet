@@ -1,0 +1,24 @@
+## Scheduling Prophet
+
+Scenario.name = [Buff1;Buff2;Buff3;Buff4]
+Scenario.endTime = 1440
+Scenario.nrofHostGroups = 1
+
+btInterface.transmitSpeed = 250k 
+Group.nrofInterfaces = 1
+Group.interface1 = btInterface
+Group.movementModel = MapBasedMovement
+Group.router = ProphetRouter
+Group.advFlag = 1
+Group.msgTtl = 300
+Group.speed = 5,7
+Group.bufferSize = [1k;2k;3k;5k]
+Group.nrofHosts = 200
+
+Events.nrof = 1
+Events1.hosts = 0,199
+Events1.interval = 10,10
+
+Report.nrofReports = 1
+Report.reportDir = [reports/SProphet/Buff1;reports/SProphet/Buff2;reports/SProphet/Buff3;reports/SProphet/Buff4]
+Report.report1 = MessageStatsReport

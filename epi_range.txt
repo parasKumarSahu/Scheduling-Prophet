@@ -1,0 +1,25 @@
+##Epidemic
+
+Scenario.name = [Range1;Range2;Range3;Range4]
+Scenario.endTime = 1440
+Scenario.nrofHostGroups = 1
+
+btInterface.transmitSpeed = 250k 
+Group.nrofInterfaces = 1
+btInterface.transmitRange = [2;4;8;10]
+Group.interface1 = btInterface
+Group.movementModel = MapBasedMovement
+Group.router = EpidemicRouter
+Group.advFlag = 0
+Group.msgTtl = 300
+Group.speed = 5,7
+Group.bufferSize = 2k
+Group.nrofHosts = 20
+
+Events.nrof = 1
+Events1.hosts = 0,19
+Events1.interval = 10,10
+
+Report.nrofReports = 1
+Report.reportDir = [reports/Epidemic/Range1;reports/Epidemic/Range2;reports/Epidemic/Range3;reports/Epidemic/Range4]
+Report.report1 = MessageStatsReport
