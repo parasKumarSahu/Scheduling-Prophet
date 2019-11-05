@@ -1,0 +1,20 @@
+Message stats for scenario Nodes3
+sim_time: 1440.1000
+created: 49
+started: 2902
+relayed: 2902
+aborted: 0
+dropped: 0
+removed: 0
+delivered: 15
+delivery_prob: 0.3061
+response_prob: 0.0000
+overhead_ratio: 192.4667
+latency_avg: 786.2600
+latency_med: 837.9000
+hopcount_avg: 4.6000
+hopcount_med: 4
+buffertime_avg: NaN
+buffertime_med: NaN
+rtt_avg: NaN
+rtt_med: NaN

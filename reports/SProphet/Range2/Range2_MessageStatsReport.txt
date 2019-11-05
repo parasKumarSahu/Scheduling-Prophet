@@ -1,0 +1,20 @@
+Message stats for scenario Range2
+sim_time: 1440.1000
+created: 144
+started: 6
+relayed: 6
+aborted: 0
+dropped: 74
+removed: 0
+delivered: 2
+delivery_prob: 0.0139
+response_prob: 0.0000
+overhead_ratio: 2.0000
+latency_avg: 615.3500
+latency_med: 831.6000
+hopcount_avg: 1.0000
+hopcount_med: 1
+buffertime_avg: 653.1257
+buffertime_med: 620.0000
+rtt_avg: NaN
+rtt_med: NaN
